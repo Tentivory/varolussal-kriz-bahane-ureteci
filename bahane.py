@@ -3,6 +3,7 @@
 """
 VAROLUŞSAL KRİZ BAHANE ÜRETİCİSİ
 Dünyanın en ciddi olmayan en ciddi programı.
+Güncellendi: Daha absürt bahaneler eklendi.
 """
 
 import random
@@ -18,7 +19,9 @@ bahaneler = [
     "çünkü sandalyem 'oturma, kalk, yürü, yaşa' diye felsefe yaptı",
     "çünkü penceremden giren rüzgar bana 'bugün hiçbir şey yapma' diye fısıldadı",
     "çünkü kahve makinem 'sen de bir gün tükeneceksin' dedi ve ben onunla empati kurdum",
-    "çünkü takvimimdeki günler birbirine 'biz de anlamsızız' diye şikayet etti"
+    "çünkü takvimimdeki günler birbirine 'biz de anlamsızız' diye şikayet etti",
+    "çünkü monitörüm 'ben de senin gibi yoruldum' dedi ve birlikte mola verdik",
+    "çünkü USB kablom 'ben de bağlanmak istemiyorum' diye isyan etti"
 ]
 
 def uret_bahane(is_adi):
@@ -35,7 +38,7 @@ def uret_bahane(is_adi):
 
 def main():
     print("=" * 50)
-    print("   VAROLUŞSAL KRİZ BAHANE ÜRETİCİSİ v1.0")
+    print("   VAROLUŞSAL KRİZ BAHANE ÜRETİCİSİ v1.1")
     print("   'Neden bugün hiçbir şey yapmadım?' sorusuna cevap")
     print("=" * 50)
     
